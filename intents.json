@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?"],
+      "responses": ["Hello! Welcome to AITS Tirupati.", "Hi there! How can I help you today?", "Good to see you! Ask me anything about AITS Tirupati."],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon", "I am leaving"],
+      "responses": ["Goodbye! Have a great day.", "See you later at AITS Tirupati!", "Take care!"],
+      "context_set": ""
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "List of branches", "Programs available", "What can I study here?", "Departments in college"],
+      "responses": ["We offer B.Tech, M.Tech, MBA, and Diploma courses in various branches like CSE, ECE, EEE, Civil, Mechanical, AI & DS, and more."],
+      "context_set": ""
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How to apply?", "Admission process", "What is the eligibility?", "How can I join AITS?", "admission details"],
+      "responses": ["Admissions are based on EAPCET/ECET/ICET entrance exams as per APSCHE guidelines. You can also visit our official website for admission notifications."],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "Tell me about fees", "How much is the tuition fee?", "Fee details"],
+      "responses": ["The fee structure varies by course. For example, B.Tech fee is as per APSCHE norms. Please check the official website or contact the office for exact details."],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college?", "College address", "Location of AITS Tirupati", "How can I reach the campus?"],
+      "responses": ["Annamacharya Institute of Technology & Sciences is located at  Tirupati, Andhra Pradesh. It is easily reachable by road and close to Tirupati city."],
+      "context_set": ""
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are available?", "Campus facilities", "Do you have hostel?", "Labs and library info"],
+      "responses": ["We provide hostels for boys and girls, well-equipped labs, library, transportation, canteen, Wi-Fi enabled campus, and sports facilities."],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Placement details", "What about jobs?", "Do you provide campus placements?", "Companies visiting campus"],
+      "responses": ["Yes! We have a dedicated Training and Placement Cell. Top recruiters include TCS, Wipro, Infosys, Cognizant, Capgemini, HCL, and many more."],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": ["Contact details", "How to contact the college?", "Phone number", "Email address"],
+      "responses": ["You can contact us at +91-877-2237255 or email info@aits-tpt.edu.in. Visit our official website: www.aits-tpt.edu.in for more details."],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": ["College timings", "When is the office open?", "Working hours"],
+      "responses": ["The college functions from 9:00 AM to 4:30 PM, Monday to Saturday. Administrative office timings are 9:00 AM to 5:00 PM."],
+      "context_set": ""
+    }
+  ]
+}
